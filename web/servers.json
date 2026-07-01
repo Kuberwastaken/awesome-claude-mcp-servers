@@ -1,0 +1,2393 @@
+{
+  "generated": "from README.md by scripts/build-data.mjs",
+  "count": 198,
+  "categories": [
+    "Aggregators and gateways",
+    "Developer tools and version control",
+    "Browser automation",
+    "Web search and scraping",
+    "Databases and data warehouses",
+    "Knowledge and memory",
+    "Files and document handling",
+    "Cloud, infrastructure and devops",
+    "Monitoring and observability",
+    "Security",
+    "Communication",
+    "Productivity and project management",
+    "Finance and payments",
+    "Design and creative",
+    "AI, data and analytics",
+    "Maps and location",
+    "Media and entertainment",
+    "Science and research",
+    "Everything else"
+  ],
+  "servers": [
+    {
+      "id": "metamcp",
+      "name": "MetaMCP",
+      "url": "https://github.com/metatool-ai/metamcp",
+      "description": "Aggregate MCP servers into namespaced endpoints with middleware, auth, and a GUI.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "docker-mcp-gateway",
+      "name": "Docker MCP Gateway",
+      "url": "https://github.com/docker/mcp-gateway",
+      "description": "Run and manage MCP servers as isolated, signed Docker containers.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "mcp-proxy",
+      "name": "mcp-proxy",
+      "url": "https://github.com/sparfenyuk/mcp-proxy",
+      "description": "Bridge stdio and SSE/streamable-HTTP so any server reaches any client.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mcp-context-forge",
+      "name": "MCP Context Forge",
+      "url": "https://github.com/IBM/mcp-context-forge",
+      "description": "Federate REST, MCP, and A2A tools behind a single gateway.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Py"
+      ],
+      "runs": "remote",
+      "source": "community"
+    },
+    {
+      "id": "agentgateway",
+      "name": "agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Data-plane proxy for agents and MCP with security and governance controls.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Rust"
+      ],
+      "runs": "remote",
+      "source": "community"
+    },
+    {
+      "id": "klavis",
+      "name": "Klavis",
+      "url": "https://github.com/Klavis-AI/klavis",
+      "description": "Hosted or self-hosted platform that serves and manages MCP integrations at scale.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "unla",
+      "name": "Unla",
+      "url": "https://github.com/AmoyLab/Unla",
+      "description": "Lightweight gateway that turns existing MCP servers into managed endpoints.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Go"
+      ],
+      "runs": "remote",
+      "source": "community"
+    },
+    {
+      "id": "mcp-router",
+      "name": "MCP Router",
+      "url": "https://github.com/mcp-router/mcp-router",
+      "description": "Desktop app that routes, manages, and aggregates local MCP servers.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mcpjungle",
+      "name": "MCPJungle",
+      "url": "https://github.com/mcpjungle/MCPJungle",
+      "description": "Self-hosted MCP registry and proxy for enterprise agent fleets.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Go"
+      ],
+      "runs": "remote",
+      "source": "community"
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus",
+      "url": "https://github.com/grafbase/nexus",
+      "description": "Gateway that aggregates MCP servers and LLM providers behind one API.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Rust"
+      ],
+      "runs": "remote",
+      "source": "community"
+    },
+    {
+      "id": "1mcp",
+      "name": "1MCP",
+      "url": "https://github.com/1mcp-app/agent",
+      "description": "Aggregate multiple MCP servers into a single unified endpoint.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "magg",
+      "name": "Magg",
+      "url": "https://github.com/sitbon/magg",
+      "description": "Meta-MCP hub for autonomous discovery, install, and orchestration of servers.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mcgravity",
+      "name": "mcgravity",
+      "url": "https://github.com/tigranbs/mcgravity",
+      "description": "Proxy that composes many MCP servers into one load-balanced endpoint.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "pluggedin-mcp",
+      "name": "pluggedin-mcp",
+      "url": "https://github.com/VeriTeknik/pluggedin-mcp",
+      "description": "Unify servers with tool and resource discovery plus a playground.",
+      "category": "Aggregators and gateways",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "Manage repositories, issues, pull requests, code search, and Actions.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "description": "Read, search, and manipulate local Git repositories.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "serena",
+      "name": "Serena",
+      "url": "https://github.com/oraios/serena",
+      "description": "Symbol-level code retrieval and editing powered by language servers.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "context7",
+      "name": "Context7",
+      "url": "https://github.com/upstash/context7",
+      "description": "Inject up-to-date, version-specific library documentation into prompts.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "desktop-commander",
+      "name": "Desktop Commander",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "Terminal control and diff-based file edits across your machine.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "gitlab-duo",
+      "name": "GitLab Duo",
+      "url": "https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/",
+      "description": "Built-in GitLab endpoint for projects, issues, merge requests, and pipelines.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Ruby"
+      ],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "e2b",
+      "name": "E2B",
+      "url": "https://github.com/e2b-dev/mcp-server",
+      "description": "Run LLM-generated code in secure cloud sandboxes.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "url": "https://github.com/postmanlabs/postman-mcp-server",
+      "description": "Connect agents to APIs, collections, and environments in Postman.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "circleci",
+      "name": "CircleCI",
+      "url": "https://github.com/CircleCI-Public/mcp-server-circleci",
+      "description": "Let agents diagnose and fix failing CI builds.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "buildkite",
+      "name": "Buildkite",
+      "url": "https://github.com/buildkite/buildkite-mcp-server",
+      "description": "Manage Buildkite pipelines, builds, and jobs.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "azure-devops",
+      "name": "Azure DevOps",
+      "url": "https://github.com/microsoft/azure-devops-mcp",
+      "description": "Access Azure DevOps boards, repos, and pipelines.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "gitkraken",
+      "name": "GitKraken",
+      "url": "https://github.com/gitkraken/gk-cli",
+      "description": "CLI and MCP wrapping GitKraken, Jira, GitHub, and GitLab.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "mcp-language-server",
+      "name": "MCP Language Server",
+      "url": "https://github.com/isaacphi/mcp-language-server",
+      "description": "Give agents semantic code tools: definitions, references, and diagnostics.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "gitee",
+      "name": "Gitee",
+      "url": "https://github.com/oschina/mcp-gitee",
+      "description": "Repository, issue, and pull-request management for Gitee.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "description": "Drive a browser through the accessibility tree instead of screenshots.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "chrome-devtools",
+      "name": "Chrome DevTools",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Control and inspect a live Chrome for automation, debugging, and perf tracing.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "browser-use",
+      "name": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Let agents drive a real browser to extract data and complete tasks.",
+      "category": "Browser automation",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "browserbase",
+      "name": "Browserbase",
+      "url": "https://github.com/browserbase/mcp-server-browserbase",
+      "description": "Control a cloud browser via Browserbase infrastructure and Stagehand.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "stagehand",
+      "name": "Stagehand",
+      "url": "https://github.com/browserbase/stagehand",
+      "description": "AI browser-automation framework with act, extract, and observe primitives.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "browser-mcp",
+      "name": "Browser MCP",
+      "url": "https://github.com/browsermcp/mcp",
+      "description": "Automate your local Chrome through a companion browser extension.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "playwright-executeautomation",
+      "name": "Playwright (ExecuteAutomation)",
+      "url": "https://github.com/executeautomation/mcp-playwright",
+      "description": "Community Playwright automation plus web-scraping tools.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "skyvern",
+      "name": "Skyvern",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "description": "Automate browser workflows using LLMs and computer vision.",
+      "category": "Browser automation",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "hyperbrowser",
+      "name": "Hyperbrowser",
+      "url": "https://github.com/hyperbrowserai/mcp",
+      "description": "Cloud browser platform for agent scraping and automation.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "url": "https://github.com/angiejones/mcp-selenium",
+      "description": "Browser automation through the Selenium WebDriver.",
+      "category": "Browser automation",
+      "languages": [
+        "JS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
+      "description": "Browser automation and scraping via Puppeteer.",
+      "category": "Browser automation",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "archived"
+    },
+    {
+      "id": "fetch",
+      "name": "Fetch",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+      "description": "Fetch a URL and convert its content to markdown.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "description": "Scrape, crawl, and extract structured web data for LLMs.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "url": "https://github.com/exa-labs/exa-mcp-server",
+      "description": "Neural web search, crawling, and company research for agents.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "url": "https://github.com/tavily-ai/tavily-mcp",
+      "description": "Real-time search, extract, map, and crawl tuned for agents.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "url": "https://github.com/brave/brave-search-mcp-server",
+      "description": "Web, local, image, video, and news search via the Brave API.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://github.com/ppl-ai/modelcontextprotocol",
+      "description": "Real-time web research via Perplexity Sonar models.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "kagi",
+      "name": "Kagi",
+      "url": "https://github.com/kagisearch/kagimcp",
+      "description": "Kagi search and summarizer API access.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
+      "description": "Web search and page fetch through DuckDuckGo, no API key.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "searxng",
+      "name": "SearXNG",
+      "url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+      "description": "Query a self-hosted SearXNG metasearch instance.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "url": "https://github.com/apify/actors-mcp-server",
+      "description": "Run thousands of Apify Store scrapers and actors for web data.",
+      "category": "Web search and scraping",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "bright-data",
+      "name": "Bright Data",
+      "url": "https://github.com/brightdata/brightdata-mcp",
+      "description": "Web unlocker, SERP, and scraping toolkit.",
+      "category": "Web search and scraping",
+      "languages": [
+        "JS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "crawl4ai",
+      "name": "Crawl4AI",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "Open-source, LLM-friendly crawler with a built-in MCP endpoint.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "oxylabs",
+      "name": "Oxylabs",
+      "url": "https://github.com/oxylabs/oxylabs-mcp",
+      "description": "Scraping API with dynamic rendering and geo-targeting.",
+      "category": "Web search and scraping",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "postgresql-pro",
+      "name": "PostgreSQL Pro",
+      "url": "https://github.com/crystaldba/postgres-mcp",
+      "description": "Schema-aware Postgres access with health checks and safe SQL.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
+      "description": "Query and manage SQLite databases.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "archived"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "url": "https://github.com/designcomputer/mysql_mcp_server",
+      "description": "MySQL access with configurable permissions and schema inspection.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "description": "Connect agents to MongoDB databases and Atlas clusters.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "url": "https://github.com/redis/mcp-redis",
+      "description": "Natural-language interface to manage and search Redis data.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "url": "https://github.com/supabase/mcp",
+      "description": "Manage Supabase Postgres, auth, storage, and edge functions.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "url": "https://github.com/neondatabase/mcp-server-neon",
+      "description": "Manage Neon serverless Postgres projects, branches, and queries.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "url": "https://github.com/ClickHouse/mcp-clickhouse",
+      "description": "Explore databases and run read-only SQL against ClickHouse.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "bigquery",
+      "name": "BigQuery",
+      "url": "https://github.com/LucasHild/mcp-server-bigquery",
+      "description": "Query BigQuery with schema inspection and SQL execution.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "url": "https://github.com/isaacwasserman/mcp-snowflake-server",
+      "description": "Query Snowflake with read/write access and insight tracking.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "duckdb",
+      "name": "DuckDB",
+      "url": "https://github.com/ktanaka101/mcp-server-duckdb",
+      "description": "DuckDB access with schema inspection and read-only mode.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "motherduck",
+      "name": "MotherDuck",
+      "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+      "description": "Query data with MotherDuck and local DuckDB.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "url": "https://github.com/prisma/mcp",
+      "description": "Manage Prisma databases and run migrations.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "neo4j",
+      "name": "Neo4j",
+      "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+      "description": "Explore schema and run Cypher against Neo4j graph databases.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "url": "https://github.com/domdomegg/airtable-mcp-server",
+      "description": "Read and write Airtable base records with schema inspection.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "nocodb",
+      "name": "NocoDB",
+      "url": "https://github.com/edwinbernadus/nocodb-mcp-server",
+      "description": "Read and write NocoDB database records.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "JS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "url": "https://github.com/elastic/mcp-server-elasticsearch",
+      "description": "Natural-language search over Elasticsearch data.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "tinybird",
+      "name": "Tinybird",
+      "url": "https://github.com/tinybirdco/mcp-tinybird",
+      "description": "Query the Tinybird serverless ClickHouse analytics platform.",
+      "category": "Databases and data warehouses",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+      "description": "Persistent knowledge-graph memory across sessions.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "basic-memory",
+      "name": "Basic Memory",
+      "url": "https://github.com/basicmachines-co/basic-memory",
+      "description": "Local-first Markdown knowledge base with persistent semantic memory.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mem0",
+      "name": "mem0",
+      "url": "https://github.com/coleam00/mcp-mem0",
+      "description": "Persistent long-term agent memory backed by mem0.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "memento",
+      "name": "Memento",
+      "url": "https://github.com/gannonh/memento-mcp",
+      "description": "Neo4j-backed knowledge-graph memory with temporal awareness.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "reference",
+      "name": "Reference",
+      "url": "https://github.com/Kuberwastaken/reference",
+      "description": "Search and recall past sessions and memory across Claude, Codex, and other AI tools.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "url": "https://github.com/qdrant/mcp-server-qdrant",
+      "description": "Store and retrieve semantic memories in the Qdrant vector engine.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "chroma",
+      "name": "Chroma",
+      "url": "https://github.com/chroma-core/chroma-mcp",
+      "description": "Vector, full-text, and metadata search over Chroma collections.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "milvus",
+      "name": "Milvus",
+      "url": "https://github.com/zilliztech/mcp-server-milvus",
+      "description": "Vector, text, and hybrid search on the Milvus database.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "pinecone",
+      "name": "Pinecone",
+      "url": "https://github.com/pinecone-io/pinecone-mcp",
+      "description": "Search docs, manage indexes, and query data in Pinecone.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+      "description": "Read, search, and edit notes in an Obsidian vault.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "apple-notes",
+      "name": "Apple Notes",
+      "url": "https://github.com/sirmews/apple-notes-mcp",
+      "description": "Read from the local Apple Notes database on macOS.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "url": "https://github.com/apw124/logseq-mcp",
+      "description": "Interact with a Logseq knowledge graph.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "graphlit",
+      "name": "Graphlit",
+      "url": "https://github.com/graphlit/graphlit-mcp-server",
+      "description": "Ingest Slack, Gmail, and web content into a searchable knowledge base.",
+      "category": "Knowledge and memory",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "filesystem",
+      "name": "Filesystem",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "description": "Secure local file operations with configurable access controls.",
+      "category": "Files and document handling",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "filesystem-go",
+      "name": "Filesystem (Go)",
+      "url": "https://github.com/mark3labs/mcp-filesystem-server",
+      "description": "Go implementation of local filesystem access.",
+      "category": "Files and document handling",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "everything-search",
+      "name": "Everything Search",
+      "url": "https://github.com/mamertofabian/mcp-everything-search",
+      "description": "Fast local file search across Windows, macOS, and Linux.",
+      "category": "Files and document handling",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive",
+      "description": "File access and search for Google Drive.",
+      "category": "Files and document handling",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "archived"
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "url": "https://github.com/softeria/ms-365-mcp-server",
+      "description": "Access Microsoft 365 files, mail, and calendar via Graph API.",
+      "category": "Files and document handling",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "url": "https://github.com/hmk/box-mcp-server",
+      "description": "Search and read files in Box.",
+      "category": "Files and document handling",
+      "languages": [
+        "JS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "pandoc",
+      "name": "Pandoc",
+      "url": "https://github.com/vivekVells/mcp-pandoc",
+      "description": "Convert documents between Markdown, HTML, PDF, and docx.",
+      "category": "Files and document handling",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "unstructured",
+      "name": "Unstructured",
+      "url": "https://github.com/Unstructured-IO/UNS-MCP",
+      "description": "Build document parsing and ingestion workflows.",
+      "category": "Files and document handling",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "url": "https://github.com/cloudinary/mcp-servers",
+      "description": "Upload, transform, analyze, and organize media assets.",
+      "category": "Files and document handling",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "llm-context",
+      "name": "llm-context",
+      "url": "https://github.com/cyberchitta/llm-context.py",
+      "description": "Share code and file context with LLMs via MCP or clipboard.",
+      "category": "Files and document handling",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "url": "https://github.com/awslabs/mcp",
+      "description": "Suite of servers for AWS services, CDK, cost, docs, and Bedrock.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "url": "https://github.com/microsoft/mcp",
+      "description": "Access Azure services with Entra ID authentication.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "C#"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "description": "Remote servers across Cloudflare dev, observability, and security.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "google-cloud-run",
+      "name": "Google Cloud Run",
+      "url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+      "description": "Deploy applications to Google Cloud Run.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "url": "https://github.com/hashicorp/terraform-mcp-server",
+      "description": "Interact with the Terraform Registry and HCP Terraform APIs.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "pulumi",
+      "name": "Pulumi",
+      "url": "https://www.pulumi.com/docs/ai/mcp-server/",
+      "description": "Execute Pulumi infrastructure-as-code operations via the Automation and Cloud APIs.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "url": "https://github.com/Flux159/mcp-server-kubernetes",
+      "description": "Manage pods, deployments, and services in Kubernetes.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mcp-k8s-go",
+      "name": "mcp-k8s-go",
+      "url": "https://github.com/strowk/mcp-k8s-go",
+      "description": "Kubernetes cluster operations: pods, logs, and events.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "url": "https://github.com/QuantGeekDev/docker-mcp",
+      "description": "Manage containers and Compose stacks.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "url": "https://github.com/heroku/heroku-mcp-server",
+      "description": "Manage Heroku apps, Postgres, and add-ons.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "url": "https://github.com/netlify/netlify-mcp",
+      "description": "Create, build, deploy, and manage Netlify sites.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "nomad",
+      "name": "Nomad",
+      "url": "https://github.com/kocierik/mcp-nomad",
+      "description": "Manage HashiCorp Nomad jobs and clusters.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "hetzner-cloud",
+      "name": "Hetzner Cloud",
+      "url": "https://github.com/dkruyt/mcp-hetzner",
+      "description": "Interact with the Hetzner Cloud API.",
+      "category": "Cloud, infrastructure and devops",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "url": "https://github.com/getsentry/sentry-mcp",
+      "description": "Retrieve issues, stack traces, and Seer AI analysis.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "Access dashboards, datasources, alerts, and incidents.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "axiom",
+      "name": "Axiom",
+      "url": "https://github.com/axiomhq/mcp",
+      "description": "Query observability data using Axiom Processing Language.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "TS"
+      ],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "logfire",
+      "name": "Logfire",
+      "url": "https://github.com/pydantic/logfire-mcp",
+      "description": "Access OpenTelemetry traces and metrics via Pydantic Logfire.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "victoriametrics",
+      "name": "VictoriaMetrics",
+      "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+      "description": "Query VictoriaMetrics metrics and observability data.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "signoz",
+      "name": "SigNoz",
+      "url": "https://github.com/DrDroidLab/signoz-mcp-server",
+      "description": "Query SigNoz metrics, traces, and dashboards.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "raygun",
+      "name": "Raygun",
+      "url": "https://github.com/MindscapeHQ/mcp-server-raygun",
+      "description": "Access crash-reporting and real-user-monitoring data.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "url": "https://github.com/scottlepp/loki-mcp",
+      "description": "Query Grafana Loki log data.",
+      "category": "Monitoring and observability",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "url": "https://github.com/semgrep/mcp",
+      "description": "Scan code for security vulnerabilities with Semgrep.",
+      "category": "Security",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "osv",
+      "name": "OSV",
+      "url": "https://github.com/StacklokLabs/osv-mcp",
+      "description": "Query the Open Source Vulnerabilities database.",
+      "category": "Security",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "snyk",
+      "name": "Snyk",
+      "url": "https://github.com/sammcj/mcp-snyk",
+      "description": "Scan repositories and projects via the Snyk CLI.",
+      "category": "Security",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "burp-suite",
+      "name": "Burp Suite",
+      "url": "https://github.com/PortSwigger/mcp-server",
+      "description": "Integrate Burp Suite for web security testing.",
+      "category": "Security",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "hashicorp-vault",
+      "name": "HashiCorp Vault",
+      "url": "https://github.com/hashicorp/vault-mcp-server",
+      "description": "Manage secrets and policies in HashiCorp Vault.",
+      "category": "Security",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "auth0",
+      "name": "Auth0",
+      "url": "https://github.com/auth0/auth0-mcp-server",
+      "description": "Manage Auth0 tenants with natural language.",
+      "category": "Security",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "ghidramcp",
+      "name": "GhidraMCP",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "description": "Reverse-engineer binaries through Ghidra decompilation.",
+      "category": "Security",
+      "languages": [
+        "Java"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "ida-pro",
+      "name": "IDA Pro",
+      "url": "https://github.com/mrexodia/ida-pro-mcp",
+      "description": "Automate reverse engineering with IDA Pro.",
+      "category": "Security",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "shodan",
+      "name": "Shodan",
+      "url": "https://github.com/BurtTheCoder/mcp-shodan",
+      "description": "Query Shodan network intelligence with structured output.",
+      "category": "Security",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal",
+      "url": "https://github.com/BurtTheCoder/mcp-virustotal",
+      "description": "Analyze files and URLs via the VirusTotal API.",
+      "category": "Security",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "url": "https://github.com/goodwokdev/op-mcp",
+      "description": "Access the 1Password CLI to manage secrets and vaults.",
+      "category": "Security",
+      "languages": [
+        "Rust"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "url": "https://github.com/korotovsky/slack-mcp-server",
+      "description": "Access Slack workspaces over stdio, SSE, and HTTP with smart history.",
+      "category": "Communication",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "Search, read, and send personal WhatsApp messages and media.",
+      "category": "Communication",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "url": "https://github.com/GongRzhe/Gmail-MCP-Server",
+      "description": "Send, search, and manage Gmail with automatic OAuth.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "url": "https://github.com/chaindead/telegram-mcp",
+      "description": "Manage Telegram dialogs, messages, and drafts over MTProto.",
+      "category": "Communication",
+      "languages": [
+        "Go"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio",
+      "url": "https://github.com/twilio-labs/mcp",
+      "description": "Send messages and manage phone numbers via Twilio APIs.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "url": "https://github.com/line/line-bot-mcp-server",
+      "description": "Connect an agent to a LINE Official Account.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "url": "https://github.com/Hawstein/resend-mcp",
+      "description": "Compose and send email through the Resend API.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mailgun",
+      "name": "Mailgun",
+      "url": "https://github.com/mailgun/mailgun-mcp-server",
+      "description": "Interact with the Mailgun email API for sending and analytics.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "url": "https://github.com/keturiosakys/bluesky-context-server",
+      "description": "Query and search Bluesky feeds and posts over the AT Protocol.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "url": "https://github.com/intercom/intercom-mcp-server",
+      "description": "Search Intercom conversations and contacts.",
+      "category": "Communication",
+      "languages": [
+        "TS"
+      ],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "url": "https://github.com/makenotion/notion-mcp-server",
+      "description": "Read and write Notion pages, databases, blocks, and comments.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app/docs/mcp",
+      "description": "Manage Linear issues, projects, and cycles.",
+      "category": "Productivity and project management",
+      "languages": [],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "url": "https://github.com/atlassian/atlassian-mcp-server",
+      "description": "Access Jira, Confluence, and Bitbucket via OAuth.",
+      "category": "Productivity and project management",
+      "languages": [],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "atlassian-community",
+      "name": "Atlassian (community)",
+      "url": "https://github.com/sooperset/mcp-atlassian",
+      "description": "Self-hostable Jira and Confluence integration.",
+      "category": "Productivity and project management",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+      "description": "Create tasks and search across the Asana Work Graph.",
+      "category": "Productivity and project management",
+      "languages": [],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "monday-com",
+      "name": "monday.com",
+      "url": "https://github.com/mondaycom/mcp",
+      "description": "Access monday.com boards, items, and workflows.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "url": "https://github.com/taazkareem/clickup-mcp-server",
+      "description": "Manage ClickUp tasks, docs, time tracking, and comments.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "url": "https://github.com/abhiz123/todoist-mcp-server",
+      "description": "Manage Todoist tasks with natural language.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "url": "https://github.com/m0xai/trello-mcp-server",
+      "description": "Work with Trello boards, lists, and cards.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "url": "https://github.com/nspady/google-calendar-mcp",
+      "description": "Manage Google Calendar events with conflict detection.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "apple-reminders",
+      "name": "Apple Reminders",
+      "url": "https://github.com/FradSer/mcp-server-apple-reminders",
+      "description": "Interact with Apple Reminders on macOS.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "url": "https://zapier.com/mcp",
+      "description": "Connect agents to thousands of apps for actions and triggers.",
+      "category": "Productivity and project management",
+      "languages": [],
+      "runs": "remote",
+      "source": "official"
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "url": "https://github.com/taskade/mcp",
+      "description": "Manage Taskade tasks, projects, and workspaces.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "url": "https://github.com/webflow/mcp-server",
+      "description": "Design, structure, and manage Webflow sites via the Data API.",
+      "category": "Productivity and project management",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "url": "https://github.com/stripe/agent-toolkit",
+      "description": "Manage payments, billing, and customers via the Stripe API.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "url": "https://github.com/paypal/agent-toolkit",
+      "description": "Handle invoices, payments, disputes, and subscriptions.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "xero",
+      "name": "Xero",
+      "url": "https://github.com/XeroAPI/xero-mcp-server",
+      "description": "Manage invoices, contacts, and accounting data.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "chargebee",
+      "name": "Chargebee",
+      "url": "https://github.com/chargebee/agentkit",
+      "description": "Connect agents to the Chargebee subscription-billing platform.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "url": "https://github.com/coingecko/coingecko-typescript",
+      "description": "Crypto price and market data across coins and exchanges.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "financial-datasets",
+      "name": "Financial Datasets",
+      "url": "https://github.com/financial-datasets/mcp-server",
+      "description": "Stock-market and fundamentals data built for agents.",
+      "category": "Finance and payments",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "alpaca",
+      "name": "Alpaca",
+      "url": "https://github.com/cesarvarela/alpaca-mcp",
+      "description": "Trade stocks and crypto through Alpaca APIs.",
+      "category": "Finance and payments",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "coincap",
+      "name": "CoinCap",
+      "url": "https://github.com/QuantGeekDev/coincap-mcp",
+      "description": "Real-time cryptocurrency market data, no API key.",
+      "category": "Finance and payments",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "figma-dev-mode",
+      "name": "Figma Dev Mode",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/",
+      "description": "Provide design context and canvas access from Figma files.",
+      "category": "Design and creative",
+      "languages": [],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "figma-context",
+      "name": "Figma Context",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "description": "Feed Figma layout and styling data to coding agents.",
+      "category": "Design and creative",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "Control Blender for 3D modeling and scene creation.",
+      "category": "Design and creative",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "antv-chart",
+      "name": "AntV Chart",
+      "url": "https://github.com/antvis/mcp-server-chart",
+      "description": "Generate charts with the AntV visualization library.",
+      "category": "Design and creative",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "echarts",
+      "name": "ECharts",
+      "url": "https://github.com/hustcc/mcp-echarts",
+      "description": "Generate charts with Apache ECharts.",
+      "category": "Design and creative",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "mermaid",
+      "name": "Mermaid",
+      "url": "https://github.com/hustcc/mcp-mermaid",
+      "description": "Generate Mermaid diagrams dynamically.",
+      "category": "Design and creative",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "url": "https://github.com/heilgar/shadcn-ui-mcp-server",
+      "description": "Browse and install shadcn/ui components.",
+      "category": "Design and creative",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "slidespeak",
+      "name": "SlideSpeak",
+      "url": "https://github.com/SlideSpeak/slidespeak-mcp",
+      "description": "Create presentations and PowerPoint decks with AI.",
+      "category": "Design and creative",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "sequential-thinking",
+      "name": "Sequential Thinking",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+      "description": "Structured, revisable multi-step reasoning.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "url": "https://github.com/huggingface/hf-mcp-server",
+      "description": "Access Hugging Face models, datasets, and Spaces.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "hugging-face-spaces",
+      "name": "Hugging Face Spaces",
+      "url": "https://github.com/evalstate/mcp-hfspace",
+      "description": "Use Hugging Face Spaces for image, audio, and text models.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "url": "https://github.com/googleanalytics/google-analytics-mcp",
+      "description": "Query GA4 analytics data.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "mindsdb",
+      "name": "MindsDB",
+      "url": "https://github.com/mindsdb/mindsdb",
+      "description": "Query and unify data across platforms as one MCP server.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "community"
+    },
+    {
+      "id": "vectorize",
+      "name": "Vectorize",
+      "url": "https://github.com/vectorize-io/vectorize-mcp-server",
+      "description": "Retrieval, deep research, and Markdown extraction over Vectorize.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "JS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "zenml",
+      "name": "ZenML",
+      "url": "https://github.com/zenml-io/mcp-zenml",
+      "description": "Query MLOps and LLMOps pipelines in ZenML.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "chronulus-ai",
+      "name": "Chronulus AI",
+      "url": "https://github.com/ChronulusAI/chronulus-mcp",
+      "description": "Multimodal forecasting and prediction across arbitrary inputs.",
+      "category": "AI, data and analytics",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps",
+      "description": "Location services, directions, and place details.",
+      "category": "Maps and location",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "archived"
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox",
+      "url": "https://github.com/mapbox/mcp-server",
+      "description": "Geocoding, navigation, and geospatial intelligence via Mapbox.",
+      "category": "Maps and location",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "url": "https://github.com/jjsantos01/qgis_mcp",
+      "description": "Connect QGIS to agents for geospatial operations.",
+      "category": "Maps and location",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "iplocate",
+      "name": "IPLocate",
+      "url": "https://github.com/iplocate/mcp-server-iplocate",
+      "description": "IP geolocation, network info, and proxy detection.",
+      "category": "Maps and location",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "accuweather",
+      "name": "AccuWeather",
+      "url": "https://github.com/TimLukaHorstmann/mcp-weather",
+      "description": "Weather forecasts via the AccuWeather API.",
+      "category": "Maps and location",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "globalping",
+      "name": "Globalping",
+      "url": "https://github.com/jsdelivr/globalping-mcp-server",
+      "description": "Run ping, traceroute, and DNS probes from global locations.",
+      "category": "Maps and location",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://github.com/elevenlabs/elevenlabs-mcp",
+      "description": "Text-to-speech, voice cloning, and audio processing.",
+      "category": "Media and entertainment",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "url": "https://github.com/anaisbetts/mcp-youtube",
+      "description": "Download YouTube subtitles and transcripts for analysis.",
+      "category": "Media and entertainment",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "url": "https://github.com/varunneal/spotify-mcp",
+      "description": "Control playback and manage tracks, albums, and playlists.",
+      "category": "Media and entertainment",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "videodb",
+      "name": "VideoDB",
+      "url": "https://github.com/video-db/agent-toolkit",
+      "description": "Edit video, run semantic search, and transcribe.",
+      "category": "Media and entertainment",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "url": "https://github.com/Coding-Solo/godot-mcp",
+      "description": "Launch, run, and debug the Godot game engine.",
+      "category": "Media and entertainment",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "url": "https://github.com/CoderGamester/mcp-unity",
+      "description": "Control and interact with the Unity editor.",
+      "category": "Media and entertainment",
+      "languages": [
+        "C#"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "op-gg",
+      "name": "OP.GG",
+      "url": "https://github.com/opgginc/opgg-mcp",
+      "description": "Real-time gaming stats across popular titles.",
+      "category": "Media and entertainment",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "arxiv",
+      "name": "ArXiv",
+      "url": "https://github.com/blazickjp/arxiv-mcp-server",
+      "description": "Search and analyze arXiv research papers.",
+      "category": "Science and research",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "biomcp",
+      "name": "BioMCP",
+      "url": "https://github.com/genomoncology/biomcp",
+      "description": "Biomedical research across PubMed and ClinicalTrials.gov.",
+      "category": "Science and research",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "paperswithcode",
+      "name": "PapersWithCode",
+      "url": "https://github.com/hbg/mcp-paperswithcode",
+      "description": "Search research papers, conferences, and associated codebases.",
+      "category": "Science and research",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "opennutrition",
+      "name": "OpenNutrition",
+      "url": "https://github.com/deadletterq/mcp-opennutrition",
+      "description": "Search foods, nutrition facts, and barcodes.",
+      "category": "Science and research",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "gget",
+      "name": "gget",
+      "url": "https://github.com/longevity-genie/gget-mcp",
+      "description": "Bioinformatics and genomics toolkit wrapping the gget library.",
+      "category": "Science and research",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+      "description": "Time and timezone conversion.",
+      "category": "Everything else",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+      "description": "Reference server exercising every MCP feature, for testing clients.",
+      "category": "Everything else",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "reference"
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "url": "https://github.com/voska/hass-mcp",
+      "description": "Control smart-home devices through Home Assistant.",
+      "category": "Everything else",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "coreflux-mqtt",
+      "name": "Coreflux MQTT",
+      "url": "https://github.com/CorefluxCommunity/CorefluxMCPServer",
+      "description": "MQTT automation hub for interacting with IoT devices.",
+      "category": "Everything else",
+      "languages": [
+        "C#"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "congress",
+      "name": "Congress",
+      "url": "https://github.com/amurshak/congressMCP",
+      "description": "Query US legislative data from Congress.gov.",
+      "category": "Everything else",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "community"
+    },
+    {
+      "id": "esignatures",
+      "name": "eSignatures",
+      "url": "https://github.com/esignaturescom/mcp-server-esignatures",
+      "description": "Draft, review, and send contracts and templates.",
+      "category": "Everything else",
+      "languages": [
+        "Py"
+      ],
+      "runs": "local",
+      "source": "official"
+    },
+    {
+      "id": "shopsavvy",
+      "name": "ShopSavvy",
+      "url": "https://github.com/shopsavvy/shopsavvy-mcp-server",
+      "description": "Look up product pricing by barcode, ASIN, or URL.",
+      "category": "Everything else",
+      "languages": [
+        "TS"
+      ],
+      "runs": "local",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MCP servers</title>
+<script src="config.js"></script>
+<style>
+  :root { --accent: #c96442; --bg: #fff; --text: #1c1a17; --soft: #625c54; --faint: #938b80; --border: #e7e2da; --sunken: #f5f2ee; --mono: ui-monospace, "SF Mono", Menlo, monospace; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1811; --text: #f2ede4; --soft: #b8afa2; --faint: #8a8175; --border: #322d24; --sunken: #221e17; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
+  .wrap { padding: 12px; }
+  .head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+  .head input { flex: 1; font: inherit; font-size: 13px; padding: 7px 11px; border: 1px solid var(--border); border-radius: 8px; background: var(--sunken); color: var(--text); }
+  .head .c { font-size: 11.5px; color: var(--faint); white-space: nowrap; }
+  .list { display: flex; flex-direction: column; gap: 7px; }
+  .row { border: 1px solid var(--border); border-radius: 10px; padding: 9px 11px; }
+  .row a.n { font-weight: 650; text-decoration: none; color: var(--text); font-size: 13.5px; }
+  .row a.n:hover { color: var(--accent); text-decoration: underline; }
+  .row .b { font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); margin-left: 6px; }
+  .row p { margin: 3px 0 0; color: var(--soft); font-size: 12.5px; }
+  .row .t { margin-top: 5px; display: flex; gap: 5px; flex-wrap: wrap; }
+  .row .t span { font-family: var(--mono); font-size: 10.5px; color: var(--faint); background: var(--sunken); border: 1px solid var(--border); border-radius: 5px; padding: 0 6px; }
+  .foot { margin-top: 11px; text-align: center; font-size: 11.5px; color: var(--faint); }
+  .foot a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">
+    <input id="q" type="search" placeholder="Filter…" autocomplete="off" aria-label="Filter servers">
+    <span class="c" id="c"></span>
+  </div>
+  <div class="list" id="list"></div>
+  <div class="foot" id="foot"></div>
+</div>
+<script>
+(() => {
+  const SITE = window.SITE || {};
+  document.documentElement.style.setProperty("--accent", SITE.accent || "#c96442");
+  const P = new URLSearchParams(location.search);
+  const f = {
+    q: P.get("q") || "", cat: P.get("cat") || "",
+    src: new Set((P.get("src") || "").split(",").filter(Boolean)),
+    runs: new Set((P.get("runs") || "").split(",").filter(Boolean)),
+    lang: new Set((P.get("lang") || "").split(",").filter(Boolean)),
+  };
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let ALL = [];
+  const $ = (s) => document.querySelector(s);
+  $("#q").value = f.q;
+  function match(s, q) {
+    if (f.cat && s.category !== f.cat) return false;
+    if (f.src.size && !f.src.has(s.source)) return false;
+    if (f.runs.size && !f.runs.has(s.runs)) return false;
+    if (f.lang.size && !s.languages.some((l) => f.lang.has(l))) return false;
+    if (q) { const h = (s.name + " " + s.description + " " + s.category).toLowerCase(); if (!h.includes(q.toLowerCase())) return false; }
+    return true;
+  }
+  function render() {
+    const q = $("#q").value.trim();
+    const rows = ALL.filter((s) => match(s, q));
+    $("#c").textContent = rows.length + " / " + ALL.length;
+    $("#list").innerHTML = rows.map((s) => `
+      <div class="row">
+        <a class="n" href="${s.url}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.source !== "community" ? `<span class="b">${s.source}</span>` : ""}
+        <p>${esc(s.description)}</p>
+        <div class="t">${[...s.languages, s.runs].filter(Boolean).map((t) => `<span>${esc(t)}</span>`).join("")}</div>
+      </div>`).join("") || `<p style="color:var(--faint);font-size:12.5px">No matches.</p>`;
+  }
+  $("#q").addEventListener("input", render);
+  fetch("servers.json").then((r) => r.json()).then((d) => {
+    ALL = d.servers;
+    $("#foot").innerHTML = `${f.cat ? esc(f.cat) + " · " : ""}<a href="${SITE.repo || "./"}" target="_blank" rel="noopener">${esc(SITE.title || "Awesome MCP Servers")}</a>`;
+    render();
+  });
+})();
+</script>
+</body>
+</html>

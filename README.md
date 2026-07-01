@@ -2,6 +2,8 @@
 
 > A curated, hype-free catalog of Model Context Protocol (MCP) servers that give **Claude** hands and eyes — across Claude Desktop, Claude Code, and the Claude API.
 
+**[Browse the searchable directory →](https://kuberwastaken.github.io/awesome-claude-mcp-servers/)** — search, filter by category, language, and hosting, and grab a config snippet in one click.
+
 The [Model Context Protocol](https://modelcontextprotocol.io) is an open standard for connecting AI apps to external tools, data, and services. Claude is the **client (host)**; each server below exposes tools, resources, or prompts that Claude can call. Because MCP is a standard, most of these servers also work in Cursor, Codex, and other clients — the only thing that changes is the config format. If you're on OpenAI Codex, see the sibling list: **[awesome-codex-mcp-servers](https://github.com/Kuberwastaken/awesome-codex-mcp-servers)**.
 
 This list favors **signal over volume**: servers that people actually run, that are maintained, and that do one thing well. Every entry is tagged so you can scan by language, where it runs, and who stands behind it.
