@@ -77,7 +77,7 @@
   function current() {
     let list = base().filter(matches);
     if (state.sort === "name") list.sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
-    else if (state.sort === "category") {
+    else if (state.sort === "category" && !state.q) {
       const order = new Map(CATEGORIES.map((c, i) => [c, i]));
       list.sort((a, b) => (order.get(a.category) - order.get(b.category)) || a.name.localeCompare(b.name));
     }
@@ -345,9 +345,10 @@
           { name: "languages", weight: 0.04 },
           { name: "source", weight: 0.04 },
         ],
-        threshold: 0.38, ignoreLocation: true, minMatchCharLength: 2,
+        threshold: 0.3, ignoreLocation: true, minMatchCharLength: 2,
       });
       readURL();
+      if (state.q && state.sort === "category") state.sort = "relevance";
       buildSidebar();
       $("#stats").innerHTML = `<b>${SERVERS.length}</b> servers · <b>${CATEGORIES.length}</b> categories · ${SERVERS.filter((s) => s.source === "official").length} official`;
       render();
