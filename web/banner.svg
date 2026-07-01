@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Awesome Claude MCP Servers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211b12"/>
+      <stop offset="0.55" stop-color="#1b160e"/>
+      <stop offset="1" stop-color="#17150f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c96442" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#c96442" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#c96442" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hub" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#e0a07f"/>
+      <stop offset="0.5" stop-color="#c96442"/>
+      <stop offset="1" stop-color="#9c4a2f"/>
+    </radialGradient>
+    <radialGradient id="nodeA" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#e0a07f"/>
+      <stop offset="1" stop-color="#c96442"/>
+    </radialGradient>
+    <linearGradient id="link" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c96442" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#e0a07f" stop-opacity="0.25"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#e0a07f" fill-opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1280" height="3" fill="#c96442" fill-opacity="0.55"/>
+
+  <g transform="translate(940 320)">
+    <circle cx="0" cy="0" r="300" fill="url(#glow)"/>
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#e0a07f" stroke-opacity="0.10" stroke-width="1"/>
+    <circle cx="0" cy="0" r="205" fill="none" stroke="#e0a07f" stroke-opacity="0.07" stroke-width="1"/>
+    <g fill="none" stroke="url(#link)" stroke-width="2.25" stroke-linecap="round">
+      <path d="M0,0 C 40,-70 90,-95 150,-120"/>
+      <path d="M0,0 C 70,-30 130,-40 205,-30"/>
+      <path d="M0,0 C 60,40 120,70 185,95"/>
+      <path d="M0,0 C 10,70 20,120 20,175"/>
+      <path d="M0,0 C -55,55 -105,80 -160,110"/>
+      <path d="M0,0 C -70,10 -140,10 -200,-5"/>
+      <path d="M0,0 C -45,-55 -80,-105 -110,-160"/>
+      <path d="M0,0 C 20,-55 30,-110 55,-165"/>
+    </g>
+    <g fill="none" stroke="#b8afa2" stroke-opacity="0.14" stroke-width="1.25">
+      <path d="M150,-120 C 190,-90 205,-60 205,-30"/>
+      <path d="M-200,-5 C -195,55 -185,85 -160,110"/>
+      <path d="M55,-165 C 105,-150 135,-140 150,-120"/>
+    </g>
+    <g>
+      <circle cx="150" cy="-120" r="13" fill="url(#nodeA)"/>
+      <circle cx="205" cy="-30" r="9" fill="#b8afa2" fill-opacity="0.85"/>
+      <circle cx="185" cy="95" r="12" fill="url(#nodeA)"/>
+      <circle cx="20" cy="175" r="8" fill="#b8afa2" fill-opacity="0.8"/>
+      <circle cx="-160" cy="110" r="11" fill="url(#nodeA)"/>
+      <circle cx="-200" cy="-5" r="9" fill="#b8afa2" fill-opacity="0.85"/>
+      <circle cx="-110" cy="-160" r="10" fill="#b8afa2" fill-opacity="0.8"/>
+      <circle cx="55" cy="-165" r="12" fill="url(#nodeA)"/>
+    </g>
+    <circle cx="0" cy="0" r="46" fill="#c96442" fill-opacity="0.35" filter="url(#soft)"/>
+    <circle cx="0" cy="0" r="30" fill="url(#hub)"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#e0a07f" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#e0a07f" stroke-opacity="0.22" stroke-width="1.5"/>
+    <circle cx="-9" cy="-9" r="7" fill="#f4efe7" fill-opacity="0.35"/>
+  </g>
+
+  <rect x="0" y="0" width="760" height="640" fill="url(#bg)" opacity="0.55"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="96" y="214" fill="#c96442" font-size="20" font-weight="700" letter-spacing="6.5">MODEL CONTEXT PROTOCOL</text>
+    <text x="94" y="300" fill="#f4efe7" font-size="72" font-weight="700" letter-spacing="-1">Awesome Claude</text>
+    <text x="94" y="378" fill="#f4efe7" font-size="72" font-weight="700" letter-spacing="-1">MCP Servers</text>
+    <text x="96" y="432" fill="#b8afa2" font-size="27" font-weight="400">A curated, searchable catalog of MCP servers for Claude</text>
+    <rect x="96" y="480" width="46" height="3" rx="1.5" fill="#c96442" fill-opacity="0.7"/>
+    <text x="96" y="556" fill="#8a8175" font-size="20" font-weight="400" letter-spacing="0.5">kuber.studio/awesome-claude-mcp-servers</text>
+  </g>
+</svg>
