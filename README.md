@@ -2,6 +2,8 @@
 
 [![Awesome Claude MCP Servers](web/banner.png)](https://kuber.studio/awesome-claude-mcp-servers/)
 
+**Translations:** English · [help translate this list →](CONTRIBUTING.md#translations)
+
 > A curated, hype-free catalog of Model Context Protocol (MCP) servers that give **Claude** hands and eyes — across Claude Desktop, Claude Code, and the Claude API.
 
 **[Browse the searchable directory →](https://kuber.studio/awesome-claude-mcp-servers/)** — search, filter by category, language, and hosting, and grab a config snippet in one click.
