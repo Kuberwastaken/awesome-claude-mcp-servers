@@ -330,6 +330,7 @@ Exécutez et gérez de nombreux serveurs derrière un seul point de terminaison 
 - [IDA Pro](https://github.com/mrexodia/ida-pro-mcp) - Automatise la rétro-ingénierie avec IDA Pro. `Py` `local`
 - [Shodan](https://github.com/BurtTheCoder/mcp-shodan) - Interroge le renseignement réseau Shodan avec une sortie structurée. `Py` `local`
 - [VirusTotal](https://github.com/BurtTheCoder/mcp-virustotal) - Analyse des fichiers et des URL via l'API VirusTotal. `Py` `local`
+- [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) - Plateforme autonome de test d'intrusion qui orchestre des sous-agents offensifs spécialisés par technologie sur le web, le cloud, l'Active Directory, Kubernetes et les API, avec une trace de preuves pour chaque vulnérabilité. `Py` `local`
 - [1Password](https://github.com/goodwokdev/op-mcp) - Accède à la CLI 1Password pour gérer les secrets et les coffres. `Rust` `local`
 
 ## Communication
