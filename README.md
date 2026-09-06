@@ -266,6 +266,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Local-first Markdown knowledge base with persistent semantic memory. `Py` `local`
 - [mem0](https://github.com/coleam00/mcp-mem0) - Persistent long-term agent memory backed by mem0. `Py` `local`
 - [Memento](https://github.com/gannonh/memento-mcp) - Neo4j-backed knowledge-graph memory with temporal awareness. `TS` `local`
+- [Xanther Memory Engine](https://github.com/Xanther-Ai/xanther-memory-engine) - Persistent cross-session memory over episodic transcripts, a fact graph, and working context, captured automatically via IDE hooks. `Py` `local`
 - [Reference](https://github.com/Kuberwastaken/reference) - Search and recall past sessions and memory across Claude, Codex, and other AI tools. `Py` `local`
 - [Qdrant](https://github.com/qdrant/mcp-server-qdrant) - Store and retrieve semantic memories in the Qdrant vector engine. `Py` `local/remote` `official`
 - [Chroma](https://github.com/chroma-core/chroma-mcp) - Vector, full-text, and metadata search over Chroma collections. `Py` `local` `official`
