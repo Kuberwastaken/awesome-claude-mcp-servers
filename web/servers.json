@@ -1,6 +1,6 @@
 {
   "generated": "from README.md by scripts/build-data.mjs",
-  "count": 198,
+  "count": 199,
   "categories": [
     "Aggregators and gateways",
     "Developer tools and version control",
@@ -237,6 +237,18 @@
         "TS"
       ],
       "runs": "local/remote",
+      "source": "official"
+    },
+    {
+      "id": "contextstream",
+      "name": "ContextStream",
+      "url": "https://github.com/contextstream/mcp-server",
+      "description": "Shared project context for AI coding agents with code search plus decisions, lessons, and plans.",
+      "category": "Developer tools and version control",
+      "languages": [
+        "Rust"
+      ],
+      "runs": "remote",
       "source": "official"
     },
     {
