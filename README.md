@@ -228,6 +228,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetch a URL and convert its content to markdown. `Py` `local` `reference`
 - [Firecrawl](https://github.com/firecrawl/firecrawl-mcp-server) - Scrape, crawl, and extract structured web data for LLMs. `TS` `local/remote` `official`
 - [Exa](https://github.com/exa-labs/exa-mcp-server) - Neural web search, crawling, and company research for agents. `TS` `local/remote` `official`
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote `https://statsnet.co/mcp`. Registry `io.github.usenetstate/statsnet`. `remote` `community`
 - [Tavily](https://github.com/tavily-ai/tavily-mcp) - Real-time search, extract, map, and crawl tuned for agents. `TS` `local/remote` `official`
 - [Brave Search](https://github.com/brave/brave-search-mcp-server) - Web, local, image, video, and news search via the Brave API. `TS` `local/remote` `official`
 - [Perplexity](https://github.com/ppl-ai/modelcontextprotocol) - Real-time web research via Perplexity Sonar models. `TS` `local/remote` `official`
