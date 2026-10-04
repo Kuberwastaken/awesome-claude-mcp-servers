@@ -387,6 +387,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Structured, revisable multi-step reasoning. `TS` `local` `reference`
 - [Hugging Face](https://github.com/huggingface/hf-mcp-server) - Access Hugging Face models, datasets, and Spaces. `TS` `local/remote` `official`
 - [Hugging Face Spaces](https://github.com/evalstate/mcp-hfspace) - Use Hugging Face Spaces for image, audio, and text models. `TS` `local`
+- [Cheapest LLM API](https://cheapestllmapi.com) - Compare LLM token prices, inspect model capabilities, and retrieve reviewed benchmarks. `TS` `remote` `official`
 - [Google Analytics](https://github.com/googleanalytics/google-analytics-mcp) - Query GA4 analytics data. `Py` `local` `official`
 - [MindsDB](https://github.com/mindsdb/mindsdb) - Query and unify data across platforms as one MCP server. `Py` `local/remote`
 - [Vectorize](https://github.com/vectorize-io/vectorize-mcp-server) - Retrieval, deep research, and Markdown extraction over Vectorize. `JS` `local/remote` `official`
