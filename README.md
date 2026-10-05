@@ -199,6 +199,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Serena](https://github.com/oraios/serena) - Symbol-level code retrieval and editing powered by language servers. `Py` `local`
 - [Context7](https://github.com/upstash/context7) - Inject up-to-date, version-specific library documentation into prompts. `TS` `local/remote` `official`
 - [Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) - Terminal control and diff-based file edits across your machine. `TS` `local`
+- [pi-durabletask-mcp](https://github.com/Nyarlathoteppppp/pi-durabletask-mcp) - Delegate coding tasks to Pi in separate sessions with steering, follow-up, and optional SQLite recovery after bridge restarts. `TS` `local`
 - [GitLab Duo](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/) - Built-in GitLab endpoint for projects, issues, merge requests, and pipelines. `Ruby` `remote` `official`
 - [E2B](https://github.com/e2b-dev/mcp-server) - Run LLM-generated code in secure cloud sandboxes. `TS` `local/remote` `official`
 - [Postman](https://github.com/postmanlabs/postman-mcp-server) - Connect agents to APIs, collections, and environments in Postman. `TS` `local/remote` `official`
