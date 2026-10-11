@@ -302,6 +302,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Docker](https://github.com/QuantGeekDev/docker-mcp) - Manage containers and Compose stacks. `Py` `local`
 - [Heroku](https://github.com/heroku/heroku-mcp-server) - Manage Heroku apps, Postgres, and add-ons. `TS` `local` `official`
 - [Netlify](https://github.com/netlify/netlify-mcp) - Create, build, deploy, and manage Netlify sites. `TS` `local` `official`
+- [AgentStack](https://agentstack.tech) - Backend for AI agents: one remote MCP endpoint for hosting, data, auth, payments and CRM (726 actions).
 - [Nomad](https://github.com/kocierik/mcp-nomad) - Manage HashiCorp Nomad jobs and clusters. `Go` `local`
 - [Hetzner Cloud](https://github.com/dkruyt/mcp-hetzner) - Interact with the Hetzner Cloud API. `TS` `local`
 
