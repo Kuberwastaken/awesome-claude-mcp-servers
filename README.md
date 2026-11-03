@@ -262,6 +262,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 
 ## Knowledge and memory
 
+- [Holos33](https://github.com/aiagentcycle/holos33-mcp) - Search sourced public information about the Holos33 wellbeing platform. `Py` `remote` `official`
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Persistent knowledge-graph memory across sessions. `TS` `local` `reference`
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Local-first Markdown knowledge base with persistent semantic memory. `Py` `local`
 - [mem0](https://github.com/coleam00/mcp-mem0) - Persistent long-term agent memory backed by mem0. `Py` `local`
