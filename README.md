@@ -422,6 +422,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 
 ## Everything else
 
+- [Good Nature Vibe Catalog](https://github.com/aiagentcycle/gnv-catalog-mcp) - Search products and public shop knowledge without accounts, carts, orders, payments, or checkout. `JS` `remote` `official`
 - [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion. `Py` `local` `reference`
 - [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference server exercising every MCP feature, for testing clients. `TS` `local` `reference`
 - [Home Assistant](https://github.com/voska/hass-mcp) - Control smart-home devices through Home Assistant. `Py` `local`
