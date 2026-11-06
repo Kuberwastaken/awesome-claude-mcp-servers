@@ -425,6 +425,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion. `Py` `local` `reference`
 - [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference server exercising every MCP feature, for testing clients. `TS` `local` `reference`
 - [Home Assistant](https://github.com/voska/hass-mcp) - Control smart-home devices through Home Assistant. `Py` `local`
+- [JobsPipe](https://github.com/jobspipe/mcp) - Search live normalized job postings from 30+ ATS feeds and job boards via hosted MCP. `remote` `official`
 - [Coreflux MQTT](https://github.com/CorefluxCommunity/CorefluxMCPServer) - MQTT automation hub for interacting with IoT devices. `C#` `local`
 - [Congress](https://github.com/amurshak/congressMCP) - Query US legislative data from Congress.gov. `Py` `local`
 - [eSignatures](https://github.com/esignaturescom/mcp-server-esignatures) - Draft, review, and send contracts and templates. `Py` `local` `official`
