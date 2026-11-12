@@ -392,6 +392,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Vectorize](https://github.com/vectorize-io/vectorize-mcp-server) - Retrieval, deep research, and Markdown extraction over Vectorize. `JS` `local/remote` `official`
 - [ZenML](https://github.com/zenml-io/mcp-zenml) - Query MLOps and LLMOps pipelines in ZenML. `Py` `local` `official`
 - [Chronulus AI](https://github.com/ChronulusAI/chronulus-mcp) - Multimodal forecasting and prediction across arbitrary inputs. `Py` `local`
+- [Datacircle](https://datacircle.dev) - Compare GTM APIs and their plans, with no key. `Py` `remote`
 
 ## Maps and location
 
