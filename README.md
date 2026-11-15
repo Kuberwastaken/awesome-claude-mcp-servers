@@ -401,6 +401,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [IPLocate](https://github.com/iplocate/mcp-server-iplocate) - IP geolocation, network info, and proxy detection. `TS` `local` `official`
 - [AccuWeather](https://github.com/TimLukaHorstmann/mcp-weather) - Weather forecasts via the AccuWeather API. `TS` `local`
 - [Globalping](https://github.com/jsdelivr/globalping-mcp-server) - Run ping, traceroute, and DNS probes from global locations. `TS` `local` `official`
+- [No Stairs Please](https://nostairsplease.com/mcp) - Search 4,300+ under-400-capacity North American live music venues, room capacities, booking contacts, and tour routing. `TS` `remote` `official`
 
 ## Media and entertainment
 
