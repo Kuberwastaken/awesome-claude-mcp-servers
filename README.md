@@ -208,6 +208,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [GitKraken](https://github.com/gitkraken/gk-cli) - CLI and MCP wrapping GitKraken, Jira, GitHub, and GitLab. `TS` `local` `official`
 - [MCP Language Server](https://github.com/isaacphi/mcp-language-server) - Give agents semantic code tools: definitions, references, and diagnostics. `Go` `local`
 - [Gitee](https://github.com/oschina/mcp-gitee) - Repository, issue, and pull-request management for Gitee. `TS` `local` `official`
+- [xmcp Docs](https://xmcp.dev/docs/guides/xmcp-mcp-server) - Search and read the official xmcp TypeScript framework documentation. `TS` `remote` `official`
 
 ## Browser automation
 
