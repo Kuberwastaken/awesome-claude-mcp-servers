@@ -334,6 +334,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 
 - [Slack](https://github.com/korotovsky/slack-mcp-server) - Access Slack workspaces over stdio, SSE, and HTTP with smart history. `Go` `local/remote`
 - [WhatsApp](https://github.com/lharries/whatsapp-mcp) - Search, read, and send personal WhatsApp messages and media. `Go` `local`
+- [WA MCP](https://github.com/tsahospital-beep/wa-mcp) - Search WhatsApp messages and voice transcripts through a linked Go bridge. `Py` `local/remote`
 - [Gmail](https://github.com/GongRzhe/Gmail-MCP-Server) - Send, search, and manage Gmail with automatic OAuth. `TS` `local`
 - [Telegram](https://github.com/chaindead/telegram-mcp) - Manage Telegram dialogs, messages, and drafts over MTProto. `Go` `local`
 - [Twilio](https://github.com/twilio-labs/mcp) - Send messages and manage phone numbers via Twilio APIs. `TS` `local` `official`
