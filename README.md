@@ -239,6 +239,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Bright Data](https://github.com/brightdata/brightdata-mcp) - Web unlocker, SERP, and scraping toolkit. `JS` `local/remote` `official`
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - Open-source, LLM-friendly crawler with a built-in MCP endpoint. `Py` `local`
 - [Oxylabs](https://github.com/oxylabs/oxylabs-mcp) - Scraping API with dynamic rendering and geo-targeting. `Py` `local/remote` `official`
+- [Social Fetch](https://github.com/social-freak-ltd/socialfetch-mcp) - Returns public social media data as JSON from TikTok, Instagram, YouTube, X, Reddit, LinkedIn and more. `TS` `remote` `official`
 
 ## Databases and data warehouses
 
