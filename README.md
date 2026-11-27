@@ -189,7 +189,6 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Nexus](https://github.com/Nexus-Router/nexus) - Gateway that aggregates MCP servers and LLM providers behind one API. `Rust` `remote`
 - [1MCP](https://github.com/1mcp-app/agent) - Aggregate multiple MCP servers into a single unified endpoint. `TS` `local/remote`
 - [Magg](https://github.com/sitbon/magg) - Meta-MCP hub for autonomous discovery, install, and orchestration of servers. `Py` `local`
-- [mcgravity](https://github.com/tigranbs/mcgravity) - Proxy that composes many MCP servers into one load-balanced endpoint. `TS` `local`
 - [pluggedin-mcp](https://github.com/VeriTeknik/pluggedin-mcp) - Unify servers with tool and resource discovery plus a playground. `TS` `local`
 
 ## Developer tools and version control
