@@ -151,7 +151,7 @@ You do not want thirty servers. Tool definitions are spent from the same context
 - [GitHub](https://github.com/github/github-mcp-server) - issues, PRs, code search, and Actions, so Claude participates in the repo.
 - [Playwright](https://github.com/microsoft/playwright-mcp) - drive and verify a browser for UI work and end-to-end checks.
 - [Serena](https://github.com/oraios/serena) - symbol-level code navigation and edits for large codebases.
-- [Sentry](https://github.com/getsentry/sentry-mcp) - pull real production errors and stack traces while you fix them.
+- [Sentry](https://github.com/getsentry/toolkit) - pull real production errors and stack traces while you fix them.
 
 > Claude Code already has strong built-in file, shell, and Git tools. A Filesystem or Git MCP server is mostly redundant there — add them for **Claude Desktop**, where those built-ins don't exist.
 
@@ -186,7 +186,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Unla](https://github.com/AmoyLab/Unla) - Lightweight gateway that turns existing MCP servers into managed endpoints. `Go` `remote`
 - [MCP Router](https://github.com/mcp-router/mcp-router) - Desktop app that routes, manages, and aggregates local MCP servers. `TS` `local`
 - [MCPJungle](https://github.com/mcpjungle/MCPJungle) - Self-hosted MCP registry and proxy for enterprise agent fleets. `Go` `remote`
-- [Nexus](https://github.com/grafbase/nexus) - Gateway that aggregates MCP servers and LLM providers behind one API. `Rust` `remote`
+- [Nexus](https://github.com/Nexus-Router/nexus) - Gateway that aggregates MCP servers and LLM providers behind one API. `Rust` `remote`
 - [1MCP](https://github.com/1mcp-app/agent) - Aggregate multiple MCP servers into a single unified endpoint. `TS` `local/remote`
 - [Magg](https://github.com/sitbon/magg) - Meta-MCP hub for autonomous discovery, install, and orchestration of servers. `Py` `local`
 - [mcgravity](https://github.com/tigranbs/mcgravity) - Proxy that composes many MCP servers into one load-balanced endpoint. `TS` `local`
@@ -231,11 +231,11 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Exa](https://github.com/exa-labs/exa-mcp-server) - Neural web search, crawling, and company research for agents. `TS` `local/remote` `official`
 - [Tavily](https://github.com/tavily-ai/tavily-mcp) - Real-time search, extract, map, and crawl tuned for agents. `TS` `local/remote` `official`
 - [Brave Search](https://github.com/brave/brave-search-mcp-server) - Web, local, image, video, and news search via the Brave API. `TS` `local/remote` `official`
-- [Perplexity](https://github.com/ppl-ai/modelcontextprotocol) - Real-time web research via Perplexity Sonar models. `TS` `local/remote` `official`
+- [Perplexity](https://github.com/perplexityai/modelcontextprotocol) - Real-time web research via Perplexity Sonar models. `TS` `local/remote` `official`
 - [Kagi](https://github.com/kagisearch/kagimcp) - Kagi search and summarizer API access. `Py` `local` `official`
 - [DuckDuckGo](https://github.com/nickclyde/duckduckgo-mcp-server) - Web search and page fetch through DuckDuckGo, no API key. `Py` `local`
 - [SearXNG](https://github.com/ihor-sokoliuk/mcp-searxng) - Query a self-hosted SearXNG metasearch instance. `Py` `local`
-- [Apify](https://github.com/apify/actors-mcp-server) - Run thousands of Apify Store scrapers and actors for web data. `TS` `local/remote` `official`
+- [Apify](https://github.com/apify/apify-mcp-server) - Run thousands of Apify Store scrapers and actors for web data. `TS` `local/remote` `official`
 - [Bright Data](https://github.com/brightdata/brightdata-mcp) - Web unlocker, SERP, and scraping toolkit. `JS` `local/remote` `official`
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - Open-source, LLM-friendly crawler with a built-in MCP endpoint. `Py` `local`
 - [Oxylabs](https://github.com/oxylabs/oxylabs-mcp) - Scraping API with dynamic rendering and geo-targeting. `Py` `local/remote` `official`
@@ -308,14 +308,14 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 
 ## Monitoring and observability
 
-- [Sentry](https://github.com/getsentry/sentry-mcp) - Retrieve issues, stack traces, and Seer AI analysis. `TS` `local/remote` `official`
+- [Sentry](https://github.com/getsentry/toolkit) - Retrieve issues, stack traces, and Seer AI analysis. `TS` `local/remote` `official`
 - [Grafana](https://github.com/grafana/mcp-grafana) - Access dashboards, datasources, alerts, and incidents. `Go` `local/remote` `official`
-- [Axiom](https://github.com/axiomhq/mcp) - Query observability data using Axiom Processing Language. `TS` `remote` `official`
+- [Axiom](https://github.com/axiomhq/mcp-server-axiom) - Query observability data using Axiom Processing Language. `TS` `remote` `official`
 - [Logfire](https://github.com/pydantic/logfire-mcp) - Access OpenTelemetry traces and metrics via Pydantic Logfire. `Py` `local` `official`
-- [VictoriaMetrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) - Query VictoriaMetrics metrics and observability data. `Go` `local`
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/mcp-victoriametrics) - Query VictoriaMetrics metrics and observability data. `Go` `local`
 - [SigNoz](https://github.com/DrDroidLab/signoz-mcp-server) - Query SigNoz metrics, traces, and dashboards. `Py` `local`
 - [Raygun](https://github.com/MindscapeHQ/mcp-server-raygun) - Access crash-reporting and real-user-monitoring data. `TS` `local` `official`
-- [Loki](https://github.com/scottlepp/loki-mcp) - Query Grafana Loki log data. `Go` `local`
+- [Loki](https://github.com/grafana-cold-storage/loki-mcp) - Query Grafana Loki log data. `Go` `local`
 
 ## Security
 
@@ -327,8 +327,8 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Auth0](https://github.com/auth0/auth0-mcp-server) - Manage Auth0 tenants with natural language. `TS` `local` `official`
 - [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) - Reverse-engineer binaries through Ghidra decompilation. `Java` `local`
 - [IDA Pro](https://github.com/mrexodia/ida-pro-mcp) - Automate reverse engineering with IDA Pro. `Py` `local`
-- [Shodan](https://github.com/BurtTheCoder/mcp-shodan) - Query Shodan network intelligence with structured output. `Py` `local`
-- [VirusTotal](https://github.com/BurtTheCoder/mcp-virustotal) - Analyze files and URLs via the VirusTotal API. `Py` `local`
+- [Shodan](https://github.com/w0h1v/mcp-shodan) - Query Shodan network intelligence with structured output. `Py` `local`
+- [VirusTotal](https://github.com/w0h1v/mcp-virustotal) - Analyze files and URLs via the VirusTotal API. `Py` `local`
 - [1Password](https://github.com/goodwokdev/op-mcp) - Access the 1Password CLI to manage secrets and vaults. `Rust` `local`
 
 ## Communication
@@ -341,7 +341,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [LINE](https://github.com/line/line-bot-mcp-server) - Connect an agent to a LINE Official Account. `TS` `local` `official`
 - [Resend](https://github.com/Hawstein/resend-mcp) - Compose and send email through the Resend API. `TS` `local`
 - [Mailgun](https://github.com/mailgun/mailgun-mcp-server) - Interact with the Mailgun email API for sending and analytics. `TS` `local` `official`
-- [Bluesky](https://github.com/keturiosakys/bluesky-context-server) - Query and search Bluesky feeds and posts over the AT Protocol. `TS` `local`
+- [Bluesky](https://github.com/laulauland/bluesky-context-server) - Query and search Bluesky feeds and posts over the AT Protocol. `TS` `local`
 - [Intercom](https://github.com/intercom/intercom-mcp-server) - Search Intercom conversations and contacts. `TS` `remote` `official`
 
 ## Productivity and project management
@@ -356,14 +356,14 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Todoist](https://github.com/abhiz123/todoist-mcp-server) - Manage Todoist tasks with natural language. `TS` `local`
 - [Trello](https://github.com/m0xai/trello-mcp-server) - Work with Trello boards, lists, and cards. `TS` `local`
 - [Google Calendar](https://github.com/nspady/google-calendar-mcp) - Manage Google Calendar events with conflict detection. `TS` `local`
-- [Apple Reminders](https://github.com/FradSer/mcp-server-apple-reminders) - Interact with Apple Reminders on macOS. `TS` `local`
+- [Apple Reminders](https://github.com/FradSer/mcp-server-apple-events) - Interact with Apple Reminders on macOS. `TS` `local`
 - [Zapier](https://zapier.com/mcp) - Connect agents to thousands of apps for actions and triggers. `remote` `official`
 - [Taskade](https://github.com/taskade/mcp) - Manage Taskade tasks, projects, and workspaces. `TS` `local/remote` `official`
 - [Webflow](https://github.com/webflow/mcp-server) - Design, structure, and manage Webflow sites via the Data API. `TS` `local/remote` `official`
 
 ## Finance and payments
 
-- [Stripe](https://github.com/stripe/agent-toolkit) - Manage payments, billing, and customers via the Stripe API. `TS` `local/remote` `official`
+- [Stripe](https://github.com/stripe/ai) - Manage payments, billing, and customers via the Stripe API. `TS` `local/remote` `official`
 - [PayPal](https://github.com/paypal/agent-toolkit) - Handle invoices, payments, disputes, and subscriptions. `TS` `local/remote` `official`
 - [Xero](https://github.com/XeroAPI/xero-mcp-server) - Manage invoices, contacts, and accounting data. `TS` `local` `official`
 - [Chargebee](https://github.com/chargebee/agentkit) - Connect agents to the Chargebee subscription-billing platform. `TS` `local` `official`
@@ -376,7 +376,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 
 - [Figma Dev Mode](https://developers.figma.com/docs/figma-mcp-server/) - Provide design context and canvas access from Figma files. `local/remote` `official`
 - [Figma Context](https://github.com/GLips/Figma-Context-MCP) - Feed Figma layout and styling data to coding agents. `TS` `local`
-- [Blender](https://github.com/ahujasid/blender-mcp) - Control Blender for 3D modeling and scene creation. `Py` `local`
+- [Blender](https://github.com/ahujasid/mcp-for-blender) - Control Blender for 3D modeling and scene creation. `Py` `local`
 - [AntV Chart](https://github.com/antvis/mcp-server-chart) - Generate charts with the AntV visualization library. `TS` `local` `official`
 - [ECharts](https://github.com/hustcc/mcp-echarts) - Generate charts with Apache ECharts. `TS` `local`
 - [Mermaid](https://github.com/hustcc/mcp-mermaid) - Generate Mermaid diagrams dynamically. `TS` `local`
@@ -426,7 +426,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion. `Py` `local` `reference`
 - [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference server exercising every MCP feature, for testing clients. `TS` `local` `reference`
 - [Home Assistant](https://github.com/voska/hass-mcp) - Control smart-home devices through Home Assistant. `Py` `local`
-- [Coreflux MQTT](https://github.com/CorefluxCommunity/CorefluxMCPServer) - MQTT automation hub for interacting with IoT devices. `C#` `local`
+- [Coreflux MQTT](https://github.com/CorefluxCommunity/Coreflux-MQTT-MCP-Server) - MQTT automation hub for interacting with IoT devices. `C#` `local`
 - [Congress](https://github.com/amurshak/congressMCP) - Query US legislative data from Congress.gov. `Py` `local`
 - [eSignatures](https://github.com/esignaturescom/mcp-server-esignatures) - Draft, review, and send contracts and templates. `Py` `local` `official`
 - [ShopSavvy](https://github.com/shopsavvy/shopsavvy-mcp-server) - Look up product pricing by barcode, ASIN, or URL. `TS` `local` `official`
