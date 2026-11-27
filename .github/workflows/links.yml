@@ -21,7 +21,6 @@ jobs:
             --no-progress
             --max-concurrency 4
             --accept 200,206,429
-            --exclude-mail
             README.md
           # Don't fail the build on flaky/rate-limited hosts; surface a report instead.
           fail: false
