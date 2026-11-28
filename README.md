@@ -294,6 +294,7 @@ Run and manage many servers behind one endpoint — routing, auth, tool filterin
 - [AWS](https://github.com/awslabs/mcp) - Suite of servers for AWS services, CDK, cost, docs, and Bedrock. `Py` `local/remote` `official`
 - [Azure](https://github.com/microsoft/mcp) - Access Azure services with Entra ID authentication. `C#` `local` `official`
 - [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Remote servers across Cloudflare dev, observability, and security. `TS` `remote` `official`
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) - Live data layer for data-center site selection; Data Center Power Index (DCPI) across 300+ markets. Remote at https://dchub.cloud/mcp (free to start). `TS` `remote` `official`
 - [Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp) - Deploy applications to Google Cloud Run. `TS` `local` `official`
 - [Terraform](https://github.com/hashicorp/terraform-mcp-server) - Interact with the Terraform Registry and HCP Terraform APIs. `Go` `local/remote` `official`
 - [Pulumi](https://www.pulumi.com/docs/ai/mcp-server/) - Execute Pulumi infrastructure-as-code operations via the Automation and Cloud APIs. `TS` `local` `official`
